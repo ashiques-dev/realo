@@ -1,12 +1,14 @@
-import Navbar from '@/components/navbar'
-import React from 'react'
+import Hero from "@/components/hero";
+import Navbar from "@/components/navbar";
+import React from "react";
 
 const Home = () => {
   return (
     <>
-    <Navbar/>
+      <Navbar />
+      <Hero />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
